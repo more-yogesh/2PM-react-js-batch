@@ -1,0 +1,36 @@
+.nav ul li a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.heading {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn {
+    color: #ffffff;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn-success {
+    background-color: rgb(39 61 6);
+
+}
+
+.btn-error {
+    background-color: rgb(234, 80, 49);
+}
+
+.btn-warning {
+    background-color: rgb(236, 193, 76);
+}
+
+.btn-info {
+    background-color: rgb(22, 118, 142);
+}
+
+.dark-text{
+    color: rgb(39, 37, 37);
+}

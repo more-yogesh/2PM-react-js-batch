@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="post">
+        <label for="fname">First Name</label>
+        <input type="text" name="fistName" id="fname" value="156" placeholder="Enter Name">
+        <br />
+        <label for="lname">Last Name</label>
+        <input type="text" name="lastName" id="lname" value="88" disabled>
+        <br />
+        <label for="contact">Mobile No</label>
+        <input type="number" name="contact" id="contact">
+        <br />
+        <label>Gender</label>
+        <label for="male">Male</label>
+        <input type="radio" checked name="gender" value="male" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="female" id="female">
+        <br />
+        <label>Hobbies</label>
+        <input type="checkbox" name="hob[]" value="read">
+        <input type="checkbox" checked name="hob[]" value="Write">
+        <input type="checkbox" name="hob[]" value="Dance">
+        <br />
+        <select name="country" multiple>
+            <option value="in">INDIA</option>
+            <option value="usa" selected>United State of America</option>
+            <option value="ch">China</option>
+        </select>
+        <br />
+        <textarea placeholder="Enter Address"></textarea>
+        <br />
+        <input type="file" name="image" />
+        <input type="hidden" name="secretId" value="1254DSD" />
+        <br />
+        <input type="email" name="email" value="demo" />
+        <br />
+        <input type="password" name="password" value="4564654" />
+        <br />
+
+        <hr />
+        <input type="submit" value="ADD" />
+        <input type="reset" value="Reset" />
+        <input type="button" value="Cancel">
+    </form>
+</body>
+
+</html>
