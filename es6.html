@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function greet(msg) {
+            console.log("Welcome ", msg);
+        }
+
+        // ES 6
+        const greet = (msg) => {  // arrow functions
+            console.log("Welcome ", msg);
+        }
+        const greet = (msg) => console.log("Welcome ", msg); // no need curly if 1 satement
+        const greet = msg => console.log("Welcome ", msg); // no need round bracket if 1 arg
+        const greet = () => console.log("Welcome "); // no need round bracket if 1 arg
+        greet("Darwin");
+    </script>
+</body>
+
+</html>

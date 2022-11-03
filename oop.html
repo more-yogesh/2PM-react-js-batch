@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Encapsulation:
+        // wrapping data member & member functions into single unit known as encapsulation.
+        class Car {
+            downPayment;
+            name(carName) {
+                return 'Your car name is ' + carName;
+            }
+            avg(avg) {
+                return 'Your car evg is ' + avg;
+            }
+        }
+        let c = new Car;
+        console.log(c.name('Audi'));
+    </script>
+</body>
+
+</html>
