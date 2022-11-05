@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" name="" id="number">
+
+    <button onclick="checkInput()">CHECK</button>
+    <script>
+        const checkInput = () => {
+
+            // student.darwinstech.com
+
+
+            contact = document.getElementById('number').value;
+            // console.log(typeof contact);
+            let pattern = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+
+            console.log(pattern.test(contact));
+
+            // let desc = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus pariatur corrupti quibusdam exercitationem, consequuntur asperiores quisquam vero omnis deserunt. Ipsam inventore LOREM optio culpa rerum provident impedit obcaecati dolor veritatis aut? lOrem";
+
+            // console.log(desc.search(/Lorem/ig));
+            // console.log("NEW TEXT: ",desc.replace(/Lorem/ig, "A12"));
+
+
+        }
+    </script>
+</body>
+
+</html>
